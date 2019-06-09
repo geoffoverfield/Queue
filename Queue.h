@@ -112,7 +112,7 @@ Void Queue<T>::Display()
 }
 
 template <class T>
-Bool Queue<T>::IsEmpty()
+bool Queue<T>::IsEmpty()
 {
 	return front == NULL;
 }
