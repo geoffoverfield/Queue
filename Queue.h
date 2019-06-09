@@ -102,9 +102,9 @@ Void Queue<T>::Display()
 	int i = 1;
 	while (temp)
 	{
-		cout << Place in Queue:\\t\\t << i << endl;
-		cout << Information in Node:\\t\\t\ << temp->data << endl;
-		cout << Memory Address of Node:\\t\\t << &temp << endl;
+		cout << Place in Queue:\t\t << i << endl;
+		cout << Information in Node:\t\t << temp->data << endl;
+		cout << Memory Address of Node:\t\t << &temp << endl;
 	}
 
 	temp = NULL;
